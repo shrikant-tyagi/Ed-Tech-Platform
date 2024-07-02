@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.roundShadow {
+    box-shadow: -2px -2px 0px 0px #FFFFFF2E inset;
+}
+
+.squareShadow {
+    box-shadow: -2px -2px 0px 0px #FFFFFF2E inset;
+}
+
+.whiteShadowUp {
+    box-shadow: -20px -20px 0px 0px #F5F5F5;
+}
+
+.whiteShadowDown {
+    box-shadow: 20px 20px 0px 0px #F5F5F5;
+}
+
+.highlighter {
+    color: #1FA2FF; /*must be a gradient color */
+}
+
+.gradientOne {
+    background: linear-gradient(123.77deg, #8A2BE2 -6.46%, #FFA500 59.04%, #F8F8FF 124.53%);
+    width: 372.94898289746016px;
+    height: 257.0537876946812px;
+    opacity: 0.20000000298023224px;
+}
+
+.homepage_bg {
+    background: url('../src/assets/Images/bghome.svg');
+}
+
+.heading1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+}
+
+.text1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.otpBox {
+    color: #FFA500;
+}
